@@ -68,12 +68,12 @@
 
 .lanche {
     position: relative;
-    padding: 60px 0px 120px 0px;
+    padding: 0px 0px 170px 0px;
 }
 
 .preco {
     position: absolute;
-    bottom: 40px;
+    bottom: 300px;
 }
 
 .container {
@@ -154,25 +154,8 @@
     color: var(--amarelo);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer-container {
-    background-image: url(/img/rodape/fundo.png);
+    background-image: url(../img/rodape/fundo.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
