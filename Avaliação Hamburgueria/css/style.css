@@ -1,0 +1,237 @@
+:root {
+    --amarelo: rgb(255, 194, 52);
+    --marrom: rgb(65, 31, 9);
+    --vermelho: rgb(223, 28, 28);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 50px;
+
+    background-color: var(--amarelo);
+}
+
+.header-menu ul {
+    display: flex;
+    gap: 55px;
+    padding: 0px 50px 0px 0px;
+}
+
+.header-menu ul li {
+    list-style: none;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: var(--marrom);
+}
+
+.header-menu ul li a:hover {
+    color: var(--vermelho);
+}
+
+.container-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    background-color: var(--amarelo);
+}
+
+.main-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50%;
+    padding: 0px 0px 0px 100px;
+}
+
+.main-title {
+    color: var(--marrom);
+    font-size: 120px;
+
+}
+
+.main-title-2 {
+    font-size: 80px;
+}
+
+.lanche {
+    position: relative;
+    padding: 60px 0px 120px 0px;
+}
+
+.preco {
+    position: absolute;
+    bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+    padding: 0px 40px 40px 40px;
+    color: var(--marrom);
+}
+
+.container-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    text-align: center;
+    gap: 10px;
+}
+
+.container-top {
+    color: var(--marrom);
+    background-color: var(--amarelo);
+    padding: 10px 15px;
+}
+
+.container-title {
+    font-size: 50px;
+}
+
+.property-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+    padding: 30px 30px 30px 30px;
+
+}
+
+.card-img {
+    width: 100%;
+    height: 300px;
+}
+
+.card-title {
+    padding: 15px 0px 0px 0px;
+    font-size: 30px;
+}
+
+.card p {
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+}
+
+.card-button {
+    background-color: var(--vermelho);
+    width: 160px;
+    height: 50px;
+    border: none;
+}
+
+.card-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-button a:hover {
+    color: var(--amarelo);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-container {
+    background-image: url(/img/rodape/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-col1 {
+    display: flex;
+    flex-direction: column;
+
+    padding: 95px 100px 0px 80px;
+    gap: 40px;
+
+    width: 50%;
+}
+
+.footer-img img {
+    height: 90px;
+}
+
+.footer-col1 span {
+    position: relative;
+    bottom: -75px;
+}
+
+.footer-col2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    width: 50%;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 30px;
+    padding: 0px 0px 0px 100px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    padding: 0px 170px 0px 0px;
+
+    gap: 10px;
+    position: relative;
+    bottom: -130px;
+}
